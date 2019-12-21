@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "vscode-icons"
+}
