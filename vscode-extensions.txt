@@ -1,0 +1,12 @@
+ms-python.python
+dbaeumer.vscode-eslint
+eamodio.gitlens
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+ritwickdey.LiveServer
+esbenp.prettier-vscode
+vscode-icons-team.vscode-icons
+akamud.vscode-theme-onedark
+shd101wyy.markdown-preview-enhanced
+truman.autocomplate-shell
+timonwong.shellcheck
