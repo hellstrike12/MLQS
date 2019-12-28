@@ -33,12 +33,12 @@ do
     code --install-extension "$line" &> /dev/null
 done < "$input"
 ) ) &
-spinner "Instalando extensões do VS Code..."
-echo ' [OK] Instalando extensões do VS Code...' 
+spinner "Instalando extensoes do VS Code..."
+echo ' [OK] Instalando extensoes do VS Code...' 
 
 cp -f settings.json $HOME/.config/Code\ -\ OSS/User/ &
-spinner "Atualizando configurações..."
-echo ' [OK] Atualizando configurações...'
+spinner "Atualizando configuracoes..."
+echo ' [OK] Atualizando configuracoes...'
 
 ( (
 input="python.txt"
@@ -47,8 +47,8 @@ do
     python -m pip install --user "$line" &> /dev/null
 done < "$input"
 ) ) &
-spinner "Instalando módulos do python..."
-echo ' [OK] Instalando módulos do python...'
+spinner "Instalando modulos do python..."
+echo ' [OK] Instalando modulos do python...'
 
 ( (
 input="npm.txt"
@@ -57,8 +57,8 @@ do
     npm install -g "$line" &> /dev/null
 done < "$input"
 ) ) &
-spinner "Instalando módulos do NPM..."
-echo ' [OK] Instalando módulos do NPM...'
+spinner "Instalando modulos do NPM..."
+echo ' [OK] Instalando modulos do NPM...'
 
 git config --global user.name "hellstrike12" &
 git config --global user.email "hellstrike12@github.com" &
